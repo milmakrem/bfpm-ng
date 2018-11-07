@@ -1,13 +1,13 @@
 export class Rental{
-        id:String;
+        _id:String;
         title:String;
         city:String;
         street:String;
         category:String;
         image:String;
-        badroom: number;
+        bedrooms: Number;
         description:String;
-        dailyrate:number;
-        shared : boolean;
+        dailyrate:Number;
+        shared : Boolean;
         createdat:String;
 }

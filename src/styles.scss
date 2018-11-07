@@ -5,4 +5,14 @@
 html , body , p {
     color : $main-text-color
 }
+/* change color by category */
+.appartment{
+ color: #e72da3;
+}
+.condo{
+    color: #d68000;
+}
+.house{
+    color: #bf1818;
+}
 
